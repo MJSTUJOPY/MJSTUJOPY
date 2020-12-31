@@ -1,0 +1,28 @@
+{
+    "name": "循跡",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "CruiseE": "github:alsrobot-microbit-makecode-packages/minicruise#v1.0.1",
+        "microphone": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "servo": "*",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.9",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.7",
+        "tinkercademy-tinker-kit": "github:tinkertanker/pxt-tinkercademy-tinker-kit#v1.1.1",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
